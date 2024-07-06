@@ -1,9 +1,20 @@
-import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
 
 const App = () => {
+
+
+
+
   return (
     <>
-      <h1>Coming Soon</h1>
+      <Routes>
+        <Route path="/">
+          <Route path="/home" element={<HomePage />}></Route>
+          <Route path="/" element={<LoginPage />}></Route>
+        </Route>
+      </Routes>
     </>
   );
 };
