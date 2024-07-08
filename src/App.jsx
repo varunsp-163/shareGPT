@@ -4,9 +4,6 @@ import LoginPage from "./pages/LoginPage";
 
 const App = () => {
 
-
-
-
   return (
     <>
       <Routes>
