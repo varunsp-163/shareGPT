@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
+import createStore from 'react-auth-kit/createStore';
 
 const initialState = {
   currentUser: undefined,

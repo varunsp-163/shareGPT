@@ -8,7 +8,8 @@ import { GoogleOAuthProvider } from "@react-oauth/google";
 import reducer from "./store/reducers";
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
-import ContextProvider from "./context/Context.jsx"
+import ContextProvider from "./context/Context.jsx";
+
 const store = configureStore({ reducer });
 
 ReactDOM.createRoot(document.getElementById("root")).render(
