@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import run from "../config/gemini";
 import userPool from "./userpool";
-import Context from "../context/Context";
+import AccountContext from "../context/context";
 import { v4 as uuidv4 } from "uuid";
 import developerLog from "./logging";
 
@@ -199,7 +199,7 @@ const AccountState = (props) => {
   };
 
   return (
-    <Context.Provider value={contextValue}>{props.children}</Context.Provider>
+    <AccountContext.Provider value={contextValue}>{props.children}</AccountContext.Provider>
   );
 };
 

@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import Layout from "../Layout";
 import ChatCard from "./ChatCard";
-import { Context } from "../../context/Context";
+import { Context } from "../../context/context";
 
 const Home = () => {
   const { onSent, input, setInput, prevPromptsnRes, loading } =
@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <div className="flex flex-col justify-between bg-gray-100 h-[85%]">
+      <div className="flex flex-col justify-between bg-gray-100 h-[87%]">
         <div className="p-4 flex-1 overflow-y-auto">
           <div className="flex flex-col space-y-4 max-h-[540px]">
             {loading && <p className="text-center text-gray-500">Loading...</p>}

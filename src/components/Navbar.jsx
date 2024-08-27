@@ -5,7 +5,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-blue-600 p-4 flex items-center justify-between shadow-md">
+    <div className="bg-blue-600 p-4 flex items-center sticky justify-between shadow-md">
       <div className="flex items-center">
         <h1 className="text-white text-2xl font-bold mr-4">Navbar</h1>
         {profileURL && (
