@@ -1,6 +1,6 @@
 const Sidebar = () => {
   return (
-    <div className="h-full w-[12rem] p-4 bg-gray-900 text-white flex flex-col justify-between">
+    <div className="h-full w-full sm:w-[12rem] sm:block hidden p-4 bg-gray-900 text-white flex flex-col justify-between">
       <div>
         <h1 className="text-2xl font-bold mb-6">New Chat</h1>
 
