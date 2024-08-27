@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import Layout from "../Layout";
 import ChatCard from "./ChatCard";
-import { Context } from "../../context/context";
+import { Context } from "../../context/Context";
 
 const Home = () => {
   const { onSent, input, setInput, prevPromptsnRes, loading } =

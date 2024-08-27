@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import run from "../config/gemini";
 import userPool from "./userpool";
-import AccountContext from "../context/context";
+import AccountContext from "../context/Context";
 import { v4 as uuidv4 } from "uuid";
 import developerLog from "./logging";
 
